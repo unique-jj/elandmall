@@ -1,15 +1,27 @@
-body{background:#fff;-webkit-user-select:none;-webkit-text-size-adjust:none;}
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,select,textarea,p,blockquote,th,td,legend,button{margin:0;padding:0;font-family:"Roboto","Droid Sans","Apple-Gothic","dotum";font-size:100%;font-weight:normal;color:#333;line-height:normal;letter-spacing:-0.3px;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
-form,fieldset,img,button{border:0 none;}
-table{border-spacing:0;border-collapse:collapse;}
-hr,legend,caption{display:none;}
+html{overflow-y:scroll;}
+html,body{width:100%;height:100%}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,select,textarea,p,blockquote,th,td,legend,button{margin:0;padding:0;color:#666;font-family:'Nanum Gothic',sans-serif;font-size:13px;line-height:1.25em;-webkit-font-smoothing:antialiased;}
+body {-webkit-text-size-adjust:none;}
 ul,ol,li{list-style:none;}
-address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;} 
-img,input,select,textarea,label{vertical-align:middle;}
-textarea{border-radius:0;-webkit-border-radius:0;-moz-border-radius:0;-webkit-appearance:none;}
-a{text-decoration:none;color:#1e1a2b;cursor:pointer;}
-a:link,a:hover,a:active{color:#1e1a2b;cursor:pointer;}
-li,p,dt,dd,div,span{word-break:break-all;}
-button{overflow:visible;margin:0;border:0;padding:0;cursor:pointer;outline: none;background:#fff;}
-body{-webkit-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color: rgba(0,0,0,0);} 
-header, footer, section, article, aside, nav, hgroup, details, menu, figure, figcaption, canvas, summary {display:block;}
+em{font-style:normal}
+input,select,button{vertical-align:middle}
+img{vertical-align:top}
+img,fieldset,iframe{border:0 none}
+a{text-decoration:none; color:#666; cursor:pointer;}
+li,p,dt,dd,div,span,td,th{word-break:break-all;}
+.ib{display:inline-block;}
+input , select {word-break:normal}
+button {-webkit-border-radius:0; background:none; cursor:pointer; background:#fff; border:none;}
+button::-moz-focus-inner {padding:0; border:0;} /* 파이어폭스 버튼 내부 여백 제거 */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {display:none;}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {-webkit-appearance:none; margin:0;}
+textarea {border:1px solid #999; padding:9px 8px; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; -webkit-border-radius:0; -webkit-appearance:none; resize:none;}
+input::-ms-clear{display:none}
+table{border-collapse:collapse;border-spacing:0;table-layout:fixed;}
+caption {overflow:hidden; width:0; height:0; font-size:0; line-height:0;}
+.safari caption {display:none;}/* 사파리 rowspan버그 */
+strong{font-weight:800;}

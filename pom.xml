@@ -29,17 +29,7 @@
                         <resource>
                             Set source and destination dirs
                             <source>
-                                <directory>${project.basedir}/sass/mobile</directory>
-                                <includes>                      
-               						 <include>*.scss</include>
-               						 </includes>
-                            </source>
-                            <destination>${project.basedir}/../../../build/css/mobile</destination>
-                        </resource>
-                        <resource>
-                            Set source and destination dirs
-                            <source>
-                                <directory>${project.basedir}/sass/pcweb</directory>
+                                <directory>${project.basedir}</directory>
                                 <includes>                      
                						 <include>*.scss</include>
                						 </includes>
@@ -48,7 +38,7 @@
                         </resource>
                     </resources>
                     <sassOptions>
-				        <style>:compressed</style>						
+				        <style>:compressed</style>
 				    </sassOptions>
                 </configuration>
             </plugin>  -->

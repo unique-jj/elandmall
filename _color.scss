@@ -3,8 +3,15 @@ $point_color_price : #c9000b; //상품가격 point-color
 $point_color_txt : #c9000b; // 상품명 point-color
 $point_color_bg : #c9000b; //상품 할인율 bg-color
 
-/* font-color */
-.fc01 {color:#333;}
-.fc02 {color:#666;}
-.fc03 {color:#999;}
-.fc04 {color:$point_color_txt;}
+//default Colors
+$basic_tx : #666;
+$black_tx : #333;
+$gray_tx : #999;
+$point1 : #a40001;
+$point2 : #997041;
+
+//event & coupon
+$c_vip:#ff7112;
+$c_gold:#e5b116;
+$c_silver:#a0a0a0;
+$c_bronze:#b38574;
